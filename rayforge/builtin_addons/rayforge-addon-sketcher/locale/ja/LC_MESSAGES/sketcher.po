@@ -1,0 +1,923 @@
+# Japanese translations for ZeusArtsJapan.
+# Copyright (C) 2026 Rayforge Contributors
+# This file is distributed under the same license as the Rayforge package.
+# Japanese Translator : Kleber.Kato <zeusarts_japan@outlook.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ZeusArtsJapan\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-15 05:49+0200\n"
+"PO-Revision-Date: 2026-10-20 00:00+0900\n"
+"Last-Translator: Japanese Translator : Kleber.Kato <zeusarts_japan@outlook.com>\n"
+"Language-Team: Japanese <null>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+
+#: sketcher/core/sketch.py sketcher/ui_gtk/property_provider.py
+msgid "Sketch Parameters"
+msgstr "スケッチパラメータ"
+
+#: sketcher/core/sketch.py
+msgid "Parameters that control this sketch's geometry"
+msgstr "このスケッチのジオメトリを制御するパラメータ"
+
+#: sketcher/core/sketch.py
+msgid "Sketch"
+msgstr "スケッチ"
+
+#: sketcher/core/constraints/equal_length.py
+msgid "Equal Length"
+msgstr "等長"
+
+#: sketcher/core/constraints/equal_length.py
+msgid "{} entities"
+msgstr "{} 要素"
+
+#: sketcher/core/constraints/parallelogram.py
+msgid "Parallelogram"
+msgstr "平行四辺形"
+
+#: sketcher/core/constraints/parallelogram.py
+msgid "Origin at {}"
+msgstr "原点: {}"
+
+#: sketcher/core/constraints/point_on_curve.py
+msgid "Point on Curve"
+msgstr "曲線上の点"
+
+#: sketcher/core/constraints/point_on_curve.py
+#: sketcher/core/constraints/point_on_line.py
+msgid "Point at {}"
+msgstr "ポイント: {}"
+
+#: sketcher/core/constraints/point_on_line.py
+msgid "Point on Line"
+msgstr "直線上の点"
+
+#: sketcher/core/constraints/collinear.py
+msgid "Collinear"
+msgstr "同一直線"
+
+#: sketcher/core/constraints/collinear.py
+msgid "{}, {}, {}"
+msgstr "{}, {}, {}"
+
+#: sketcher/core/constraints/tangent.py
+#: sketcher/ui_gtk/tools/tangent_constraint_tool.py
+msgid "Tangent"
+msgstr "接線"
+
+#: sketcher/core/constraints/tangent.py
+msgid "Line to {} at {}"
+msgstr "{} への直線 (位置: {})"
+
+#: sketcher/core/constraints/rotational.py
+msgid "Rotational Array"
+msgstr "回転配列"
+
+#: sketcher/core/constraints/distance.py sketcher/ui_gtk/tools/offset_tool.py
+#: sketcher/ui_gtk/tools/distance_constraint_tool.py
+msgid "Distance"
+msgstr "距離"
+
+#: sketcher/core/constraints/distance.py sketcher/core/constraints/vertical.py
+#: sketcher/core/constraints/symmetry.py
+#: sketcher/core/constraints/horizontal.py
+#: sketcher/core/constraints/aspect_ratio.py
+msgid "From {} to {}"
+msgstr "{} から {} まで"
+
+#: sketcher/core/constraints/distance.py sketcher/core/constraints/vertical.py
+#: sketcher/core/constraints/horizontal.py
+msgid "Enter length or expression."
+msgstr "長さまたは数式を入力してください。"
+
+#: sketcher/core/constraints/vertical.py
+#: sketcher/ui_gtk/tools/vertical_constraint_tool.py
+msgid "Vertical"
+msgstr "垂直"
+
+#: sketcher/core/constraints/equal_distance.py
+msgid "Equal Distance"
+msgstr "等距離"
+
+#: sketcher/core/constraints/equal_distance.py
+msgid "{}-{} and {}-{}"
+msgstr "{}-{} および {}-{}"
+
+#: sketcher/core/constraints/perpendicular.py
+#: sketcher/ui_gtk/tools/perpendicular_constraint_tool.py
+msgid "Perpendicular"
+msgstr "直交"
+
+#: sketcher/core/constraints/perpendicular.py
+msgid "Between {} and {}"
+msgstr "{} と {} の間"
+
+#: sketcher/core/constraints/symmetry.py
+#: sketcher/ui_gtk/tools/symmetry_constraint_tool.py
+msgid "Symmetry"
+msgstr "対称"
+
+#: sketcher/core/constraints/horizontal.py
+#: sketcher/ui_gtk/tools/horizontal_constraint_tool.py
+msgid "Horizontal"
+msgstr "水平"
+
+#: sketcher/core/constraints/base.py
+msgid "Enter value or expression."
+msgstr "値または数式を入力してください。"
+
+#: sketcher/core/constraints/angle.py
+#: sketcher/ui_gtk/tools/angle_constraint_tool.py
+msgid "Angle"
+msgstr "角度"
+
+#: sketcher/core/constraints/angle.py
+msgid "Between two lines"
+msgstr "2直線間"
+
+#: sketcher/core/constraints/angle.py
+msgid "Enter angle in degrees or expression."
+msgstr "角度 (度) または数式を入力してください。"
+
+#: sketcher/core/constraints/diameter.py
+#: sketcher/ui_gtk/tools/diameter_constraint_tool.py
+msgid "Diameter"
+msgstr "直径"
+
+#: sketcher/core/constraints/diameter.py
+msgid "Circle at {}"
+msgstr "円の位置: {}"
+
+#: sketcher/core/constraints/diameter.py
+msgid "Enter diameter or expression."
+msgstr "直径または数式を入力してください。"
+
+#: sketcher/core/constraints/coincident.py
+#: sketcher/ui_gtk/tools/coincident_constraint_tool.py
+msgid "Coincident"
+msgstr "一致"
+
+#: sketcher/core/constraints/coincident.py
+msgid "At {}"
+msgstr "位置: {}"
+
+#: sketcher/core/constraints/radius.py
+#: sketcher/ui_gtk/tools/circular_array_tool.py
+#: sketcher/ui_gtk/tools/radius_constraint_tool.py
+msgid "Radius"
+msgstr "半径"
+
+#: sketcher/core/constraints/radius.py
+msgid "{} at {}"
+msgstr "{} (位置: {})"
+
+#: sketcher/core/constraints/radius.py
+msgid "Enter radius or expression (e.g. 'width/2')."
+msgstr "半径または数式を入力してください (例: 'width/2')"
+
+#: sketcher/core/constraints/aspect_ratio.py
+#: sketcher/ui_gtk/tools/aspect_ratio_constraint_tool.py
+msgid "Aspect Ratio"
+msgstr "アスペクト比"
+
+#: sketcher/core/commands/circle.py
+msgid "Add Circle"
+msgstr "円を追加"
+
+#: sketcher/core/commands/fillet.py
+msgid "Add Fillet"
+msgstr "フィレットを追加"
+
+#: sketcher/core/commands/text_box.py sketcher/ui_gtk/tools/text_box_tool.py
+msgid "Add Text Box"
+msgstr "テキストボックスを追加"
+
+#: sketcher/core/commands/fill.py
+msgid "Add Fill"
+msgstr "塗りつぶしを追加"
+
+#: sketcher/core/commands/fill.py
+msgid "Remove Fill"
+msgstr "塗りつぶしを削除"
+
+#: sketcher/core/commands/fill.py
+msgid "Set Text Fill"
+msgstr "テキストの塗りつぶしを設定"
+
+#: sketcher/core/commands/constraint.py sketcher/ui_gtk/sketchcanvas.py
+msgid "Edit Constraint"
+msgstr "拘束を編集"
+
+#: sketcher/core/commands/bezier.py sketcher/core/commands/line.py
+msgid "Add Line"
+msgstr "線を追加"
+
+#: sketcher/core/commands/bezier.py
+msgid "Add Bezier"
+msgstr "ベジエ曲線を追加"
+
+#: sketcher/core/commands/constraint_create.py
+msgid "Add Constraint"
+msgstr "拘束を追加"
+
+#: sketcher/core/commands/constraint_create.py
+msgid "Add {}"
+msgstr "{} を追加"
+
+#: sketcher/core/commands/grid.py
+msgid "Add Grid"
+msgstr "グリッドを追加"
+
+#: sketcher/core/commands/edit_array.py
+msgid "Edit Array"
+msgstr "配列を編集"
+
+#: sketcher/core/commands/chamfer.py
+msgid "Add Chamfer"
+msgstr "面取りを追加"
+
+#: sketcher/core/commands/mirror.py
+msgid "Mirror Selection"
+msgstr "選択範囲をミラー"
+
+#: sketcher/core/commands/arc.py
+msgid "Add Arc"
+msgstr "円弧を追加"
+
+#: sketcher/core/commands/straighten.py
+#: sketcher/ui_gtk/tools/straighten_tool.py
+msgid "Straighten"
+msgstr "直線化"
+
+#: sketcher/core/commands/duplicate.py
+msgid "Duplicate Selection"
+msgstr "選択範囲を複製"
+
+#: sketcher/core/commands/create_array.py
+msgid "Create Array"
+msgstr "配列を作成"
+
+#: sketcher/core/commands/rounded_rect.py
+msgid "Add Rounded Rectangle"
+msgstr "角丸長方形を追加"
+
+#: sketcher/core/commands/offset.py sketcher/ui_gtk/tools/offset_tool.py
+msgid "Offset"
+msgstr "オフセット"
+
+#: sketcher/core/commands/rectangle.py
+msgid "Add Rectangle"
+msgstr "長方形を追加"
+
+#: sketcher/core/commands/text_property.py
+msgid "Modify Text Property"
+msgstr "テキストプロパティを変更"
+
+#: sketcher/core/commands/waypoint.py
+msgid "Set Waypoint Type"
+msgstr "ウェイポイントタイプを設定"
+
+#: sketcher/core/commands/boolean.py sketcher/ui_gtk/menu.py
+msgid "Union"
+msgstr "和集合"
+
+#: sketcher/core/commands/boolean.py sketcher/ui_gtk/menu.py
+msgid "Difference"
+msgstr "差集合"
+
+#: sketcher/core/commands/boolean.py sketcher/ui_gtk/menu.py
+msgid "Intersection"
+msgstr "積集合"
+
+#: sketcher/core/commands/boolean.py sketcher/ui_gtk/menu.py
+msgid "Exclude"
+msgstr "除外"
+
+#: sketcher/core/commands/polygon.py
+msgid "Add Polygon"
+msgstr "多角形を追加"
+
+#: sketcher/core/commands/point.py
+msgid "Move Point"
+msgstr "点を移動"
+
+#: sketcher/core/commands/point.py
+msgid "Move Control Point"
+msgstr "制御点を移動"
+
+#: sketcher/core/commands/point.py
+msgid "Unstick Junction"
+msgstr "接続の固定を解除"
+
+#: sketcher/core/commands/point.py
+msgid "Move Entities"
+msgstr "要素を移動"
+
+#: sketcher/core/commands/ellipse.py
+msgid "Add Ellipse"
+msgstr "楕円を追加"
+
+#: sketcher/core/commands/live_text_edit.py
+msgid "Edit Text"
+msgstr "テキストを編集"
+
+#: sketcher/ui_gtk/sketch_cmd.py
+msgid "Change Sketch Parameters"
+msgstr "スケッチパラメータを変更"
+
+#: sketcher/ui_gtk/sketch_mode_cmd.py sketcher/ui_gtk/**init**.py
+msgid "New Sketch"
+msgstr "新規スケッチ"
+
+#: sketcher/ui_gtk/sketch_mode_cmd.py
+msgid "Create Sketch Definition"
+msgstr "スケッチ定義を作成"
+
+#: sketcher/ui_gtk/sketch_mode_cmd.py
+msgid "Selected item is not an editable sketch."
+msgstr "選択されたアイテムは編集可能なスケッチではありません。"
+
+#: sketcher/ui_gtk/sketch_mode_cmd.py
+msgid "Please select a single sketch to edit."
+msgstr "編集するスケッチを1つだけ選択してください。"
+
+#: sketcher/ui_gtk/sketch_mode_cmd.py
+msgid "Please select a single object to export."
+msgstr "エクスポートするオブジェクトを1つだけ選択してください。"
+
+#: sketcher/ui_gtk/**init**.py
+msgid "Edit Sketch"
+msgstr "スケッチを編集"
+
+#: sketcher/ui_gtk/**init**.py
+msgid "Export Object..."
+msgstr "オブジェクトのエクスポート..."
+
+#: sketcher/ui_gtk/studio.py sketcher/ui_gtk/menu.py
+msgid "Undo"
+msgstr "元に戻す"
+
+#: sketcher/ui_gtk/studio.py sketcher/ui_gtk/menu.py
+msgid "Redo"
+msgstr "やり直す"
+
+#: sketcher/ui_gtk/studio.py
+msgid "Toggle constraints"
+msgstr "拘束の表示切替"
+
+#: sketcher/ui_gtk/studio.py
+msgid "Toggle construction geometry"
+msgstr "補助ジオメトリの表示切替"
+
+#: sketcher/ui_gtk/studio.py
+msgid "Fill color:"
+msgstr "塗りつぶし色:"
+
+#: sketcher/ui_gtk/studio.py sketcher/ui_gtk/tools/mirror_tool.py
+#: sketcher/ui_gtk/menu.py
+msgid "Mirror Vertically"
+msgstr "上下反転"
+
+#: sketcher/ui_gtk/studio.py sketcher/ui_gtk/tools/mirror_tool.py
+#: sketcher/ui_gtk/menu.py
+msgid "Mirror Horizontally"
+msgstr "左右反転"
+
+#: sketcher/ui_gtk/studio.py sketcher/ui_gtk/tools/dimension_input.py
+#: sketcher/ui_gtk/tools/grid_tool.py sketcher/ui_gtk/tools/circle_tool.py
+#: sketcher/ui_gtk/tools/offset_tool.py sketcher/ui_gtk/sketchcanvas.py
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: sketcher/ui_gtk/studio.py
+msgid "Finish"
+msgstr "完了"
+
+#: sketcher/ui_gtk/studio.py
+msgid "Properties"
+msgstr "プロパティ"
+
+#: sketcher/ui_gtk/studio.py
+msgid "Configure the sketch name and basic properties"
+msgstr "スケッチ名と基本プロパティを設定します"
+
+#: sketcher/ui_gtk/studio.py
+msgid "Name"
+msgstr "名前"
+
+#: sketcher/ui_gtk/studio.py
+msgid "Toggle camera view"
+msgstr "カメラビューの切替"
+
+#: sketcher/ui_gtk/studio.py
+msgid "Rename Sketch"
+msgstr "スケッチの名前を変更"
+
+#: sketcher/ui_gtk/tools/waypoint_symmetric_tool.py
+msgid "Symmetric"
+msgstr "対称"
+
+#: sketcher/ui_gtk/tools/symmetry_constraint_tool.py
+msgid "Add Symmetry Constraint"
+msgstr "対称拘束を追加"
+
+#: sketcher/ui_gtk/tools/select_tool.py sketcher/ui_gtk/menu.py
+msgid "Select"
+msgstr "選択"
+
+#: sketcher/ui_gtk/tools/select_tool.py sketcher/ui_gtk/tools/path_tool.py
+msgid "Constrain to Axis"
+msgstr "軸に拘束"
+
+#: sketcher/ui_gtk/tools/select_tool.py sketcher/ui_gtk/tools/path_tool.py
+#: sketcher/ui_gtk/tools/rectangle_tool.py sketcher/ui_gtk/tools/arc_tool.py
+#: sketcher/ui_gtk/tools/circle_tool.py sketcher/ui_gtk/tools/polygon_tool.py
+msgid "Toggle Magnetic Snap"
+msgstr "マグネットスナップの切替"
+
+#: sketcher/ui_gtk/tools/select_tool.py
+msgid "Select Connected"
+msgstr "接続された要素を選択"
+
+#: sketcher/ui_gtk/tools/fillet_tool.py
+msgid "Fillet"
+msgstr "フィレット"
+
+#: sketcher/ui_gtk/tools/dimension_input.py
+#: sketcher/ui_gtk/tools/offset_tool.py
+msgid "Apply"
+msgstr "適用"
+
+#: sketcher/ui_gtk/tools/dimension_input.py
+#: sketcher/ui_gtk/tools/delete_tool.py sketcher/ui_gtk/menu.py
+msgid "Delete"
+msgstr "削除"
+
+#: sketcher/ui_gtk/tools/dimension_input.py
+msgid "Next field"
+msgstr "次のフィールド"
+
+#: sketcher/ui_gtk/tools/dimension_input.py
+msgid "Prev field"
+msgstr "前のフィールド"
+
+#: sketcher/ui_gtk/tools/path_tool.py sketcher/ui_gtk/menu.py
+msgid "Path"
+msgstr "パス"
+
+#: sketcher/ui_gtk/tools/path_tool.py
+msgid "Snap to Grid"
+msgstr "グリッドにスナップ"
+
+#: sketcher/ui_gtk/tools/waypoint_sharp_tool.py
+msgid "Sharp"
+msgstr "シャープ"
+
+#: sketcher/ui_gtk/tools/rectangle_tool.py sketcher/ui_gtk/tools/**init**.py
+#: sketcher/ui_gtk/menu.py
+msgid "Rectangle"
+msgstr "長方形"
+
+#: sketcher/ui_gtk/tools/rectangle_tool.py
+#: sketcher/ui_gtk/tools/rounded_rect_tool.py
+msgid "W"
+msgstr "幅"
+
+#: sketcher/ui_gtk/tools/rectangle_tool.py
+#: sketcher/ui_gtk/tools/rounded_rect_tool.py
+msgid "H"
+msgstr "高さ"
+
+#: sketcher/ui_gtk/tools/rectangle_tool.py sketcher/ui_gtk/tools/circle_tool.py
+#: sketcher/ui_gtk/tools/rounded_rect_tool.py
+msgid "Center on start point"
+msgstr "始点を中心にする"
+
+#: sketcher/ui_gtk/tools/rectangle_tool.py
+#: sketcher/ui_gtk/tools/rounded_rect_tool.py
+msgid "Constrain to square"
+msgstr "正方形に拘束"
+
+#: sketcher/ui_gtk/tools/rectangle_tool.py
+msgid "Type dimensions (W H)"
+msgstr "寸法を入力 (W H)"
+
+#: sketcher/ui_gtk/tools/rectangle_tool.py sketcher/ui_gtk/tools/circle_tool.py
+#: sketcher/ui_gtk/tools/rounded_rect_tool.py
+msgid "Set edge point"
+msgstr "端点を設定"
+
+#: sketcher/ui_gtk/tools/**init**.py
+msgid "Array"
+msgstr "配列"
+
+#: sketcher/ui_gtk/tools/**init**.py
+msgid "Constrain"
+msgstr "拘束"
+
+#: sketcher/ui_gtk/tools/**init**.py
+msgid "Dimension"
+msgstr "寸法"
+
+#: sketcher/ui_gtk/tools/**init**.py
+msgid "Waypoint"
+msgstr "ウェイポイント"
+
+#: sketcher/ui_gtk/tools/aspect_ratio_constraint_tool.py
+msgid "Add Aspect Ratio Constraint"
+msgstr "アスペクト比拘束を追加"
+
+#: sketcher/ui_gtk/tools/angle_constraint_tool.py
+msgid "Add Angle Constraint"
+msgstr "角度拘束を追加"
+
+#: sketcher/ui_gtk/tools/fill_tool.py
+msgid "Fill"
+msgstr "塗りつぶし"
+
+#: sketcher/ui_gtk/tools/arc_tool.py
+#: sketcher/ui_gtk/tools/curve_along_array_tool.py sketcher/ui_gtk/menu.py
+msgid "Arc"
+msgstr "円弧"
+
+#: sketcher/ui_gtk/tools/arc_tool.py
+msgid "Type radius"
+msgstr "半径を入力"
+
+#: sketcher/ui_gtk/tools/grid_tool.py
+msgid "Grid"
+msgstr "グリッド"
+
+#: sketcher/ui_gtk/tools/grid_tool.py
+msgid "Create Grid"
+msgstr "グリッドを作成"
+
+#: sketcher/ui_gtk/tools/grid_tool.py
+msgid "Rows"
+msgstr "行"
+
+#: sketcher/ui_gtk/tools/grid_tool.py
+msgid "Columns"
+msgstr "列"
+
+#: sketcher/ui_gtk/tools/grid_tool.py
+msgid "Create"
+msgstr "作成"
+
+#: sketcher/ui_gtk/tools/tangent_constraint_tool.py
+msgid "Add Tangent Constraint"
+msgstr "接線拘束を追加"
+
+#: sketcher/ui_gtk/tools/circle_tool.py
+msgid "Ellipse"
+msgstr "楕円"
+
+#: sketcher/ui_gtk/tools/circle_tool.py
+msgid "Constrain to circle"
+msgstr "円に拘束"
+
+#: sketcher/ui_gtk/tools/vertical_constraint_tool.py
+msgid "Add Vertical Constraint"
+msgstr "垂直拘束を追加"
+
+#: sketcher/ui_gtk/tools/circular_array_tool.py sketcher/ui_gtk/menu.py
+msgid "Circular Array"
+msgstr "円形配列"
+
+#: sketcher/ui_gtk/tools/circular_array_tool.py
+msgid "Edit Circular Array"
+msgstr "円形配列を編集"
+
+#: sketcher/ui_gtk/tools/circular_array_tool.py
+msgid "Circular"
+msgstr "円形"
+
+#: sketcher/ui_gtk/tools/circular_array_tool.py
+msgid "Places copies along a circular arc around a centre."
+msgstr "中心の周りの円弧上にコピーを配置します。"
+
+#: sketcher/ui_gtk/tools/circular_array_tool.py
+#: sketcher/ui_gtk/tools/curve_along_array_tool.py
+msgid "Count"
+msgstr "個数"
+
+#: sketcher/ui_gtk/tools/circular_array_tool.py
+msgid "Total angle (deg)"
+msgstr "全体角度 (度)"
+
+#: sketcher/ui_gtk/tools/circular_array_tool.py
+msgid "Center X"
+msgstr "中心 X"
+
+#: sketcher/ui_gtk/tools/circular_array_tool.py
+msgid "Center Y"
+msgstr "中心 Y"
+
+#: sketcher/ui_gtk/tools/circular_array_tool.py
+msgid "Rotate copies"
+msgstr "コピーを回転"
+
+#: sketcher/ui_gtk/tools/circular_array_tool.py
+msgid "Resizes the whole array."
+msgstr "配列全体のリサイズを行います。"
+
+#: sketcher/ui_gtk/tools/circular_array_tool.py
+msgid "Derived from the template's anchor point."
+msgstr "テンプレートのアンカーポイントから算出されます。"
+
+#: sketcher/ui_gtk/tools/delete_tool.py
+msgid "Delete Selection"
+msgstr "選択範囲を削除"
+
+#: sketcher/ui_gtk/tools/curve_along_array_tool.py
+msgid "Line"
+msgstr "直線"
+
+#: sketcher/ui_gtk/tools/curve_along_array_tool.py
+msgid "Bezier"
+msgstr "ベジエ"
+
+#: sketcher/ui_gtk/tools/curve_along_array_tool.py sketcher/ui_gtk/menu.py
+msgid "Array Along Curve"
+msgstr "曲線沿い配列"
+
+#: sketcher/ui_gtk/tools/curve_along_array_tool.py
+msgid "Edit Array Along Curve"
+msgstr "曲線沿い配列を編集"
+
+#: sketcher/ui_gtk/tools/curve_along_array_tool.py
+msgid "Along Curve"
+msgstr "曲線沿い"
+
+#: sketcher/ui_gtk/tools/curve_along_array_tool.py
+msgid "Distributes copies along a guide path, oriented to its tangent."
+msgstr "ガイドパスの接線方向に沿ってコピーを等間隔に配置します。"
+
+#: sketcher/ui_gtk/tools/curve_along_array_tool.py
+msgid "Guide path"
+msgstr "ガイドパス"
+
+#: sketcher/ui_gtk/tools/curve_along_array_tool.py
+msgid "First selected entity; the rest are repeated."
+msgstr "最初の選択要素がテンプレートとなり、残りは繰り返し配置されます。"
+
+#: sketcher/ui_gtk/tools/curve_along_array_tool.py
+msgid "Spacing"
+msgstr "間隔"
+
+#: sketcher/ui_gtk/tools/curve_along_array_tool.py
+msgid ""
+"Distance between copies. 0 derives count from the path length; >0 sets the "
+"count from the usable length."
+msgstr "コピー間の距離。0の場合はパス長から個数を算出し、0より大きい場合は有効長から個数を設定します。"
+
+#: sketcher/ui_gtk/tools/curve_along_array_tool.py
+msgid "Start offset"
+msgstr "開始オフセット"
+
+#: sketcher/ui_gtk/tools/curve_along_array_tool.py
+msgid "Align to tangent"
+msgstr "接線に合わせる"
+
+#: sketcher/ui_gtk/tools/rounded_rect_tool.py sketcher/ui_gtk/menu.py
+msgid "Rounded Rectangle"
+msgstr "角丸長方形"
+
+#: sketcher/ui_gtk/tools/rounded_rect_tool.py
+#: sketcher/ui_gtk/tools/polygon_tool.py
+msgid "R"
+msgstr "半径"
+
+#: sketcher/ui_gtk/tools/rounded_rect_tool.py
+msgid "Type dimensions (W H R)"
+msgstr "寸法を入力 (W H R)"
+
+#: sketcher/ui_gtk/tools/construction_tool.py
+msgid "Construction"
+msgstr "補助線"
+
+#: sketcher/ui_gtk/tools/construction_tool.py sketcher/ui_gtk/menu.py
+msgid "Toggle Construction"
+msgstr "補助線の切替"
+
+#: sketcher/ui_gtk/tools/radius_constraint_tool.py
+msgid "Add Radius Constraint"
+msgstr "半径拘束を追加"
+
+#: sketcher/ui_gtk/tools/offset_tool.py
+msgid "Offset Contour"
+msgstr "コンツアーをオフセット"
+
+#: sketcher/ui_gtk/tools/offset_tool.py
+msgid ""
+"Replaces the selected contours with their offset. Positive values grow "
+"closed contours; open contours become slots."
+msgstr "選択したコンツアーをオフセットした形状に置き換えます。正の値は閉じたコンツアーを拡大し、開いたコンツアーは長穴になります。"
+
+#: sketcher/ui_gtk/tools/text_box_tool.py
+msgid "Text Box"
+msgstr "テキストボックス"
+
+#: sketcher/ui_gtk/tools/diameter_constraint_tool.py
+msgid "Add Diameter Constraint"
+msgstr "直径拘束を追加"
+
+#: sketcher/ui_gtk/tools/polygon_tool.py sketcher/ui_gtk/menu.py
+msgid "Polygon"
+msgstr "多角形"
+
+#: sketcher/ui_gtk/tools/polygon_tool.py
+msgid "N"
+msgstr "頂点数"
+
+#: sketcher/ui_gtk/tools/polygon_tool.py
+msgid "Star"
+msgstr "星形"
+
+#: sketcher/ui_gtk/tools/polygon_tool.py
+msgid "Type radius, corners and star ratio (R N Star)"
+msgstr "半径、頂点数、星形比率を入力 (R N Star)"
+
+#: sketcher/ui_gtk/tools/polygon_tool.py
+msgid "Set first corner"
+msgstr "最初の角を設定"
+
+#: sketcher/ui_gtk/tools/waypoint_smooth_tool.py
+msgid "Smooth"
+msgstr "スムーズ"
+
+#: sketcher/ui_gtk/tools/coincident_constraint_tool.py
+msgid "Add Coincident Constraint"
+msgstr "一致拘束を追加"
+
+#: sketcher/ui_gtk/tools/coincident_constraint_tool.py
+msgid "Add Point On Curve"
+msgstr "曲線上の点を追加"
+
+#: sketcher/ui_gtk/tools/coincident_constraint_tool.py
+msgid "Add Point On Shape"
+msgstr "図形上の点を追加"
+
+#: sketcher/ui_gtk/tools/perpendicular_constraint_tool.py
+msgid "Add Perpendicular Constraint"
+msgstr "直交拘束を追加"
+
+#: sketcher/ui_gtk/tools/horizontal_constraint_tool.py
+msgid "Add Horizontal Constraint"
+msgstr "水平拘束を追加"
+
+#: sketcher/ui_gtk/tools/chamfer_tool.py
+msgid "Chamfer"
+msgstr "面取り"
+
+#: sketcher/ui_gtk/tools/equal_constraint_tool.py
+msgid "Equal"
+msgstr "等しい"
+
+#: sketcher/ui_gtk/tools/equal_constraint_tool.py
+msgid "Add Equal Constraint"
+msgstr "等長拘束を追加"
+
+#: sketcher/ui_gtk/tools/distance_constraint_tool.py
+msgid "Add Distance Constraint"
+msgstr "距離拘束を追加"
+
+#: sketcher/ui_gtk/tools/array_base.py
+msgid "_Cancel"
+msgstr "キャンセル(_C)"
+
+#: sketcher/ui_gtk/tools/array_base.py
+msgid "_Apply"
+msgstr "適用(_A)"
+
+#: sketcher/ui_gtk/conflicts_widget.py
+msgid "Conflicting Constraints"
+msgstr "競合する拘束"
+
+#: sketcher/ui_gtk/conflicts_widget.py
+msgid "These constraints cannot be satisfied simultaneously"
+msgstr "これらの拘束を同時に満たすことはできません"
+
+#: sketcher/ui_gtk/conflicts_widget.py
+msgid "Delete constraint"
+msgstr "拘束を削除"
+
+#: sketcher/ui_gtk/conflicts_widget.py
+msgid "Delete Constraint"
+msgstr "拘束を削除"
+
+#: sketcher/ui_gtk/property_provider.py
+msgid "No parameters"
+msgstr "パラメータなし"
+
+#: sketcher/ui_gtk/property_provider.py
+msgid "Mixed Values"
+msgstr "値が混在しています"
+
+#: sketcher/ui_gtk/menu.py
+msgid "Finish Sketch"
+msgstr "スケッチを終了"
+
+#: sketcher/ui_gtk/menu.py
+msgid "Cancel Sketch"
+msgstr "スケッチをキャンセル"
+
+#: sketcher/ui_gtk/menu.py
+msgid "_File"
+msgstr "ファイル(_F)"
+
+#: sketcher/ui_gtk/menu.py
+msgid "_Edit"
+msgstr "編集(_E)"
+
+#: sketcher/ui_gtk/menu.py
+msgid "Circle"
+msgstr "円"
+
+#: sketcher/ui_gtk/menu.py
+msgid "Fill Area"
+msgstr "領域を塗りつぶし"
+
+#: sketcher/ui_gtk/menu.py
+msgid "Tools"
+msgstr "ツール"
+
+#: sketcher/ui_gtk/menu.py
+msgid "Chamfer Corner"
+msgstr "角の面取り"
+
+#: sketcher/ui_gtk/menu.py
+msgid "Modify"
+msgstr "修正"
+
+#: sketcher/ui_gtk/menu.py
+msgid "Boolean"
+msgstr "ブール演算"
+
+#: sketcher/ui_gtk/menu.py
+msgid "Arrays"
+msgstr "配列"
+
+#: sketcher/ui_gtk/menu.py
+msgid "_Sketch"
+msgstr "スケッチ(_S)"
+
+#: sketcher/ui_gtk/menu.py
+msgid "Fit View"
+msgstr "ビュー全体表示"
+
+#: sketcher/ui_gtk/menu.py
+msgid "_View"
+msgstr "表示(_V)"
+
+#: sketcher/ui_gtk/font_properties.py
+msgid "Font Properties"
+msgstr "フォントプロパティ"
+
+#: sketcher/ui_gtk/font_properties.py
+msgid "Configure font family, size, and style for text boxes"
+msgstr "テキストボックスのフォントファミリ、サイズ、スタイルを設定します"
+
+#: sketcher/ui_gtk/font_properties.py
+msgid "Font Family"
+msgstr "フォントファミリ"
+
+#: sketcher/ui_gtk/font_properties.py
+msgid "Font Size"
+msgstr "フォントサイズ"
+
+#: sketcher/ui_gtk/font_properties.py
+msgid "Bold"
+msgstr "太字"
+
+#: sketcher/ui_gtk/font_properties.py
+msgid "Italic"
+msgstr "斜体"
+
+#: sketcher/ui_gtk/font_properties.py
+msgid "Select Font"
+msgstr "フォントを選択"
+
+#: sketcher/ui_gtk/sketchcanvas.py
+msgid "OK"
+msgstr "OK"
+
+#: sketcher/image/exporter.py sketcher/image/importer.py
+#, python-brace-format
+msgid "{app_name} Sketch"
+msgstr "{app_name} スケッチ"
+
+#: sketcher/image/importer.py
+msgid "Sketch file is invalid JSON: {}"
+msgstr "スケッチファイルが無効なJSONです: {}"
+
+#: sketcher/image/importer.py
+msgid "Failed to load sketch structure: {}"
+msgstr "スケッチ構造の読み込みに失敗しました: {}"

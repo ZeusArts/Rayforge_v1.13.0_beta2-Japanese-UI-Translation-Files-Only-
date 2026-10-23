@@ -1,0 +1,348 @@
+
+# Japanese translations for ZeusArtsJapan.
+# Copyright (C) 2026 Rayforge Contributors
+# This file is distributed under the same license as the Rayforge package.
+# Japanese Translator : Kleber.Kato <zeusarts_japan@outlook.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ZeusArtsJapan\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-18 02:42+0200\n"
+"PO-Revision-Date: 2026-10-20 00:00+0900\n"
+"Last-Translator: Japanese Translator : Kleber.Kato <zeusarts_japan@outlook.com>\n"
+"Language-Team: Japanese <null>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+
+#: post_processors/widgets/optimize_group.py
+msgid "Allow Flipping"
+msgstr "反転を許可"
+
+#: post_processors/widgets/optimize_group.py
+msgid "Allow reversing path direction for shorter travel"
+msgstr "移動距離を短縮するためにパスの進行方向の反転を許可"
+
+#: post_processors/widgets/optimize_group.py
+msgid "Preserve First Workpiece"
+msgstr "最初のワークを保持"
+
+#: post_processors/widgets/optimize_group.py
+msgid "Keep the first workpiece at its original position"
+msgstr "最初のワークを元の位置に保持する"
+
+#: post_processors/widgets/optimize_group.py
+msgid "Choose Best Start Point"
+msgstr "最適な開始点を選択"
+
+#: post_processors/widgets/optimize_group.py
+msgid ""
+"Start closed paths at the vertex nearest the laser head to shorten travel "
+"moves."
+msgstr "移動距離を短縮するため、閉じたパスをレーザーヘッドに最も近い頂点から開始します。"
+
+#: post_processors/widgets/optimize_group.py
+msgid "Prefer Corners"
+msgstr "コーナーを優先"
+
+#: post_processors/widgets/optimize_group.py
+msgid ""
+"Start closed paths at a sharp corner where the path has one, which makes the "
+"seam less visible."
+msgstr "パスに鋭い角がある場合、そこから閉じたパスを開始することで継ぎ目を目立ちにくくします。"
+
+#: post_processors/widgets/optimize_group.py
+msgid "Merge Scanlines"
+msgstr "スキャンラインを結合"
+
+#: post_processors/widgets/optimize_group.py
+msgid ""
+"Merges nearby parallel cut lines into longer scanlines when this is faster "
+"for the machine's acceleration."
+msgstr "マシンの加速度に対して有利な場合、近接する平行なカット線をより長いスキャンラインに結合します。"
+
+#: post_processors/widgets/optimize_group.py
+msgid "Max gap"
+msgstr "最大ギャップ"
+
+#: post_processors/widgets/optimize_group.py
+msgid ""
+"Maximum gap to bridge at zero power; 0 decides automatically from the "
+"machine's acceleration"
+msgstr "出力ゼロでブリッジする最大ギャップ。0の場合はマシンの加速度から自動判定"
+
+#: post_processors/widgets/optimize_group.py
+msgid "Toggle Flipping"
+msgstr "反転の切り替え"
+
+#: post_processors/widgets/optimize_group.py
+msgid "Toggle Preserve First Workpiece"
+msgstr "最初のワーク保持の切り替え"
+
+#: post_processors/widgets/optimize_group.py
+msgid "Toggle Choose Best Start Point"
+msgstr "最適な開始点選択の切り替え"
+
+#: post_processors/widgets/optimize_group.py
+msgid "Toggle Prefer Corners"
+msgstr "コーナー優先の切り替え"
+
+#: post_processors/widgets/optimize_group.py
+msgid "Change maximum bridged gap"
+msgstr "最大ブリッジギャップを変更"
+
+#: post_processors/widgets/overscan_group.py
+msgid "This machine adds overscan automatically; the setting has no effect."
+msgstr "このマシンはオーバースキャンを自動追加するため、この設定は効果がありません。"
+
+#: post_processors/widgets/overscan_group.py
+#: post_processors/widgets/lead_in_out_group.py
+msgid "Automatic Distance"
+msgstr "自動距離"
+
+#: post_processors/widgets/overscan_group.py
+#: post_processors/widgets/lead_in_out_group.py
+msgid "Calculate distance based on speed and acceleration with safety factor"
+msgstr "速度と加速度、および安全率に基づいて距離を計算"
+
+#: post_processors/widgets/overscan_group.py
+msgid "Overscan Distance"
+msgstr "オーバースキャン距離"
+
+#: post_processors/widgets/overscan_group.py
+msgid "Manual distance setting"
+msgstr "手動での距離設定"
+
+#: post_processors/widgets/overscan_group.py
+msgid "Toggle Auto Overscan"
+msgstr "自動オーバースキャンの切り替え"
+
+#: post_processors/widgets/overscan_group.py
+msgid "Auto Calculate Overscan Distance"
+msgstr "オーバースキャン距離を自動計算"
+
+#: post_processors/widgets/overscan_group.py
+msgid "Disable Auto Overscan"
+msgstr "自動オーバースキャンを無効化"
+
+#: post_processors/widgets/overscan_group.py
+msgid "Change Overscan Distance"
+msgstr "オーバースキャン距離を変更"
+
+#: post_processors/widgets/smooth_group.py
+msgid "Smoothness"
+msgstr "滑らかさ"
+
+#: post_processors/widgets/smooth_group.py
+msgid "Higher values produce smoother curves"
+msgstr "値を大きくすると、曲線がより滑らかになります"
+
+#: post_processors/widgets/smooth_group.py
+msgid "Corner Angle Threshold"
+msgstr "コーナー角度しきい値"
+
+#: post_processors/widgets/smooth_group.py
+msgid "Angles sharper than this are kept as corners (degrees)"
+msgstr "これより鋭い角度はコーナーとして保持されます（度）"
+
+#: post_processors/widgets/smooth_group.py
+msgid "Change smoothness"
+msgstr "滑らかさを変更"
+
+#: post_processors/widgets/smooth_group.py
+msgid "Change corner angle"
+msgstr "コーナー角度を変更"
+
+#: post_processors/widgets/crop_group.py
+msgid "Offset"
+msgstr "オフセット"
+
+#: post_processors/widgets/crop_group.py
+msgid "Grow/shrink stock boundary before cropping"
+msgstr "トリミング前にストック境界を拡大/縮小する"
+
+#: post_processors/widgets/crop_group.py
+msgid "Change Crop Offset"
+msgstr "クロップオフセットを変更"
+
+#: post_processors/widgets/multipass_group.py
+msgid "Number of Passes"
+msgstr "パス数"
+
+#: post_processors/widgets/multipass_group.py
+msgid "How often to repeat the entire step"
+msgstr "ステップ全体を繰り返す回数"
+
+#: post_processors/widgets/multipass_group.py
+msgid "Z Step-Down per Pass"
+msgstr "パスごとのZステップダウン"
+
+#: post_processors/widgets/multipass_group.py
+msgid "Distance to lower Z-axis for each subsequent pass"
+msgstr "2パス目以降でZ軸を下げる距離"
+
+#: post_processors/widgets/multipass_group.py
+msgid "Change number of passes"
+msgstr "パス数を変更"
+
+#: post_processors/widgets/multipass_group.py
+msgid "Change Z Step-Down"
+msgstr "Zステップダウンを変更"
+
+#: post_processors/widgets/lead_in_out_group.py
+msgid "Lead-In Distance"
+msgstr "リードイン距離"
+
+#: post_processors/widgets/lead_in_out_group.py
+msgid "Distance of zero-power move before cut starts"
+msgstr "カット開始前に行う出力ゼロでの移動距離"
+
+#: post_processors/widgets/lead_in_out_group.py
+msgid "Lead-Out Distance"
+msgstr "リードアウト距離"
+
+#: post_processors/widgets/lead_in_out_group.py
+msgid "Distance of zero-power move after cut ends"
+msgstr "カット終了後に行う出力ゼロでの移動距離"
+
+#: post_processors/widgets/lead_in_out_group.py
+msgid "Toggle Auto Lead-In/Out"
+msgstr "自動リードイン/アウトの切り替え"
+
+#: post_processors/widgets/lead_in_out_group.py
+msgid "Auto Calculate Lead-In/Out Distance"
+msgstr "リードイン/アウト距離を自動計算"
+
+#: post_processors/widgets/lead_in_out_group.py
+msgid "Disable Auto Lead-In/Out"
+msgstr "自動リードイン/アウトを無効化"
+
+#: post_processors/widgets/lead_in_out_group.py
+msgid "Change Lead-In Distance"
+msgstr "リードイン距離を変更"
+
+#: post_processors/widgets/lead_in_out_group.py
+msgid "Change Lead-Out Distance"
+msgstr "リードアウト距離を変更"
+
+#: post_processors/widgets/perforation_group.py
+msgid "Cut Length"
+msgstr "カット長"
+
+#: post_processors/widgets/perforation_group.py
+msgid "Distance the laser fires before each gap"
+msgstr "ギャップの間にレーザーが照射される距離"
+
+#: post_processors/widgets/perforation_group.py
+msgid "Skip Length"
+msgstr "スキップ長"
+
+#: post_processors/widgets/perforation_group.py
+msgid "Distance travelled with the laser off between cuts"
+msgstr "カット間隔の間、レーザーをオフにして移動する距離"
+
+#: post_processors/widgets/perforation_group.py
+msgid "Change perforation cut length"
+msgstr "ミシン目カット長を変更"
+
+#: post_processors/widgets/perforation_group.py
+msgid "Change perforation skip length"
+msgstr "ミシン目スキップ長を変更"
+
+#: post_processors/widgets/merge_lines_group.py
+msgid "Tolerance"
+msgstr "許容値"
+
+#: post_processors/widgets/merge_lines_group.py
+msgid "Maximum distance for lines to be considered overlapping"
+msgstr "線が重なっているとみなす最大距離"
+
+#: post_processors/widgets/merge_lines_group.py
+msgid "Change merge tolerance"
+msgstr "マージ許容値を変更"
+
+#: post_processors/transformers/lead_in_out_transformer.py
+msgid "Lead-In/Out"
+msgstr "リードイン/アウト"
+
+#: post_processors/transformers/lead_in_out_transformer.py
+msgid "Adds zero-power lead-in and lead-out moves to vector contours."
+msgstr "ベクトル輪郭に出力ゼロのリードインおよびリードアウト移動を追加します。"
+
+#: post_processors/transformers/optimize_transformer.py
+msgid "Optimize Path"
+msgstr "パスの最適化"
+
+#: post_processors/transformers/optimize_transformer.py
+msgid "Minimizes travel distance by reordering segments."
+msgstr "セグメントの順序を再配置して移動距離を最小限に抑えます。"
+
+#: post_processors/transformers/bidir_scan_offset_transformer.py
+msgid "Bidirectional Scan Offset"
+msgstr "双方向スキャンオフセット"
+
+#: post_processors/transformers/bidir_scan_offset_transformer.py
+msgid ""
+"Shifts right-to-left raster passes along X to correct scan-direction skew."
+msgstr "右から左へのラスターパスをX軸方向へシフトし、スキャン方向のズレを補正します。"
+
+#: post_processors/transformers/smooth_transformer.py
+msgid "Smooth Path"
+msgstr "パスのスムージング"
+
+#: post_processors/transformers/smooth_transformer.py
+msgid "Smooths the path by applying a Gaussian filter."
+msgstr "ガウスフィルタを適用してパスを滑らかにします。"
+
+#: post_processors/transformers/merge_lines_transformer.py
+msgid "Merge Lines"
+msgstr "線の結合"
+
+#: post_processors/transformers/merge_lines_transformer.py
+msgid "Merges overlapping lines to avoid double passing."
+msgstr "重複する線を結合して二重パスを防ぎます。"
+
+#: post_processors/transformers/perforation_transformer.py
+msgid "Perforation"
+msgstr "ミシン目"
+
+#: post_processors/transformers/perforation_transformer.py
+msgid ""
+"Cuts in dashes: the laser fires for the cut length and skips the skip length"
+msgstr "破線状に切断します。指定されたカット長の間レーザーを照射し、スキップ長の間は停止します。"
+
+#: post_processors/transformers/overscan_transformer.py
+msgid "Overscan"
+msgstr "オーバースキャン"
+
+#: post_processors/transformers/overscan_transformer.py
+msgid "Extends raster lines to ensure constant engraving speed."
+msgstr "ラスター線を延長して彫刻速度を一定に保ちます。"
+
+#: post_processors/transformers/crop_transformer.py
+msgid "Crop to Stock"
+msgstr "ストックにクロップ"
+
+#: post_processors/transformers/crop_transformer.py
+msgid "Crops cutting lines to stock boundary."
+msgstr "カット線をストック境界に合わせてトリミングします。"
+
+#: post_processors/transformers/multipass_transformer.py
+msgid "Multi-Pass"
+msgstr "マルチパス"
+
+#: post_processors/transformers/multipass_transformer.py
+msgid "Repeats the path multiple times, optionally stepping down in Z."
+msgstr "パスを複数回繰り返し、必要に応じてZ軸を切り込み下降（ステップダウン）させます。"
+
+#: post_processors/transformers/tabs_transformer.py
+msgid "Tabs"
+msgstr "タブ"
+
+#: post_processors/transformers/tabs_transformer.py
+msgid "Creates holding tabs by adding gaps or reducing power on cut paths"
+msgstr "カットパスにギャップを追加するか出力を下げることで、保持タブを作成します"
