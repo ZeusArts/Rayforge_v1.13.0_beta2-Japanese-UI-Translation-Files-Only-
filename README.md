@@ -14,13 +14,13 @@ GeminiとNemotronで様々な手を尽くして莫大な数のコードを日本
 
 フォルダー構造・ファイルの配置場所：
 
-　rayforge/locale/ja/LC_MESSAGES/rayforge.mo
-    rayforge/builtin_addons/rayforge-addon-ai-workpiece/locale/ja/LC_MESSAGES/ai_workpiece_generator.mo
-    rayforge/builtin_addons/rayforge-addon-automation/locale/ja/LC_MESSAGES/automation.mo
-    rayforge/builtin_addons/rayforge-addon-laser/locale/ja/LC_MESSAGES/laser_essentials.mo
-    rayforge/builtin_addons/rayforge-addon-post/locale/ja/LC_MESSAGES/post_processors.mo
-    rayforge/builtin_addons/rayforge-addon-print-and-cut/locale/ja/LC_MESSAGES/print_and_cut.mo
-    rayforge/builtin_addons/rayforge-addon-sketcher/locale/ja/LC_MESSAGES/sketcher.mo
+#rayforge/locale/ja/LC_MESSAGES/rayforge.mo
+#rayforge/builtin_addons/rayforge-addon-ai-workpiece/locale/ja/LC_MESSAGES/ai_workpiece_generator.mo
+#rayforge/builtin_addons/rayforge-addon-automation/locale/ja/LC_MESSAGES/automation.mo
+#rayforge/builtin_addons/rayforge-addon-laser/locale/ja/LC_MESSAGES/laser_essentials.mo
+#rayforge/builtin_addons/rayforge-addon-post/locale/ja/LC_MESSAGES/post_processors.mo
+#rayforge/builtin_addons/rayforge-addon-print-and-cut/locale/ja/LC_MESSAGES/print_and_cut.mo
+#rayforge/builtin_addons/rayforge-addon-sketcher/locale/ja/LC_MESSAGES/sketcher.mo
 	
 	日本語翻訳ファイルリスト：
 	
