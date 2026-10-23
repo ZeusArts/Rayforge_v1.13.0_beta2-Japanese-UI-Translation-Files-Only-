@@ -22,7 +22,7 @@ Rayforge v1.13.0-beta2 Japanese UI Translation Files
 
     > ※ Linux 環境でも Windows 環境でも、Rayforge のルートディレクトリ内のフォルダ・ファイル構造はほぼ同じです。どちらでもご使用いただけます。
 
-    ※ 公式Rayforce本体はこちら：GitHub - barebaric/rayforge
+    ※ 公式Rayforge本体のリンク先：https://github.com/barebaric/rayforge
 
 
 
