@@ -1,0 +1,54 @@
+# Japanese translations for ZeusArtsJapan.
+# Copyright (C) 2026 Rayforge Contributors
+# This file is distributed under the same license as the Rayforge package.
+# Japanese Translator : Kleber.Kato <zeusarts_japan@outlook.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ZeusArtsJapan\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 16:40+0200\n"
+"PO-Revision-Date: 2026-10-20 00:00+0900\n"
+"Last-Translator: Japanese Translator : Kleber.Kato [zeusarts_japan@outlook.com](mailto:zeusarts_japan@outlook.com)\n"
+"Language-Team: Japanese \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: automation/widgets/command_page.py
+msgid "One command per line. Path variables are expanded at encode time."
+msgstr "1行に1つのコマンドを入力します。パス変数はエンコード時に展開されます。"
+
+#: automation/steps/command_step.py
+msgid "Command"
+msgstr "コマンド"
+
+#: automation/steps/command_step.py
+msgid "Machine Code"
+msgstr "マシンコード"
+
+#: automation/steps/command_step.py
+msgid "No machine code"
+msgstr "マシンコードなし"
+
+#: automation/steps/command_step.py
+#, python-brace-format
+msgid "{count} lines"
+msgstr "{count}行"
+
+#: automation/steps/command_step.py
+msgid "The command step has no machine code."
+msgstr "コマンドステップにはマシンコードがありません。"
+
+#: automation/steps/command_step.py
+#, python-brace-format
+msgid ""
+"The '{name}' driver does not support custom machine code; the lines are not "
+"emitted for this machine."
+msgstr "「{name}」ドライバはカスタムマシンコードをサポートしていません。このマシンではこれらの行は出力されません。"
+
+#: automation/steps/command_step.py
+msgid "None"
+msgstr "なし"

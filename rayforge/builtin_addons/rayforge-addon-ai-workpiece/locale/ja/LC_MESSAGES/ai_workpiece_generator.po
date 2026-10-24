@@ -1,0 +1,65 @@
+# Japanese translations for ZeusArtsJapan.
+# Copyright (C) 2026 Rayforge Contributors
+# This file is distributed under the same license as the Rayforge package.
+# Japanese Translator : Kleber.Kato <zeusarts_japan@outlook.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ZeusArtsJapan\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-30 19:31+0200\n"
+"PO-Revision-Date: 2026-10-20 00:00+0900\n"
+"Last-Translator: Japanese Translator : Kleber.Kato [zeusarts_japan@outlook.com](mailto:zeusarts_japan@outlook.com)\n"
+"Language-Team: Japanese \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ai_workpiece_generator/widgets/dialog.py
+msgid "Generate a Workpiece"
+msgstr "ワークの生成"
+
+#: ai_workpiece_generator/widgets/dialog.py
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: ai_workpiece_generator/widgets/dialog.py
+msgid "Generate"
+msgstr "生成"
+
+#: ai_workpiece_generator/widgets/dialog.py
+msgid ""
+"Describe the design you want to create. Example: 'A simple star shape with 5"
+" points'"
+msgstr "作成したいデザインの説明を入力してください。例：「5つの頂点を持つシンプルな星形」"
+
+#: ai_workpiece_generator/widgets/dialog.py
+msgid "No content generated."
+msgstr "コンテンツが生成されませんでした。"
+
+#: ai_workpiece_generator/widgets/dialog.py
+msgid "Add AI-Generated Workpiece"
+msgstr "AI生成ワークを追加"
+
+#: ai_workpiece_generator/widgets/dialog.py
+msgid "Close"
+msgstr "閉じる"
+
+#: ai_workpiece_generator/frontend.py
+msgid "Generate Workpiece with AI..."
+msgstr "AIでワークを生成..."
+
+#: ai_workpiece_generator/generator.py
+msgid ""
+"No AI provider configured. Please configure an AI provider in Settings."
+msgstr "AIプロバイダーが設定されていません。[設定]でAIプロバイダーを構成してください。"
+
+#: ai_workpiece_generator/generator.py
+msgid "No response from AI provider."
+msgstr "AIプロバイダーからの応答がありません。"
+
+#: ai_workpiece_generator/generator.py
+msgid "AI did not generate valid SVG code. Please try a different prompt."
+msgstr "AIが有効なSVGコードを生成しませんでした。別のプロンプトをお試しください。"
