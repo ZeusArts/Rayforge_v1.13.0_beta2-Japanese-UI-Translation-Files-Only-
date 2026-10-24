@@ -89,6 +89,50 @@ python -c "import polib; from pathlib import Path; [polib.pofile(str(p)).save_as
 
 ---
 
+## MSYS2 UCRT64 で.po形式ファイルを.moファイルに変換する方法（場合によっては一番簡単な方法）
+    MSYS2 UCRT64 ターミナルで、Rayforgeリポジトリのルートで実行
+
+    1. MSYS2 UCRT64 ターミナルを開く
+    - スタートメニュー → 「MSYS2 UCRT64」 を起動
+    - PowerShell / CMD / 通常の bash ではダメです
+
+    2. リポジトリルートに移動
+    bash
+    cd /c/Users/xxxxxxx/rayforge
+
+    ※ あなたの環境では C:\Users\xxxxxxx\rayforge がリポジトリルートです
+
+    3. 実行コマンド（どちらか一つ）
+
+    方法A：標準スクリプト（最推奨・エラー時も詳細が出る）
+    bash
+    bash scripts/update_translations.sh --compile-only
+
+
+    方法B：Pythonワンライナー（スクリプトが壊れてる場合の保険）
+    bash
+    python -c "import polib; from pathlib import Path; [polib.pofile(str(p)).save_as_mofile(str(p.with_suffix('.mo'))) for p in Path('.').rglob('locale/ja/LC_MESSAGES/*.po')]; print('完了')"
+
+
+
+
+    実行確認チェックリスト
+
+    bash
+    1. 正しい場所にいるか確認
+    pwd
+    → /c/Users/xxxxxxxxx/rayforge
+
+    2. 対象ファイルが見えているか確認
+    find . -name ".po" -path "/ja/LC_MESSAGES/*" | head -10
+
+    3. 実行
+    bash scripts/update_translations.sh --compile-only
+
+    4. 完了確認
+    find . -name ".mo" -path "/ja/LC_MESSAGES/*" | wc -l
+    → 7 なら成功（rayforge + 6アドオン）
+
 ## 📝 翻訳者
 
 **Kleber.Kato - ZeusArts_Japan**
